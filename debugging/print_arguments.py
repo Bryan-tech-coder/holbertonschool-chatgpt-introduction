@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 import sys
 
-print(' '.join(sys.argv[1:]))
+for arg in sys.argv[1:]:
+	print(arg)
